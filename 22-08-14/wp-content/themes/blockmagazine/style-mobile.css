@@ -1,0 +1,369 @@
+/* @containers
+********************************************************************************************
+********************************************************************************************/
+
+.container {
+width: 100%;
+max-width: 1230px;
+margin: 0 auto;
+padding:0;
+overflow:hidden;
+position:relative;
+}
+
+.container_alt{ overflow:visible}
+
+
+
+/* @columns
+********************************************************************************************
+********************************************************************************************/
+
+.onecol, .twocol, .threecol, .fourcol, .fivecol,.fifthcol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol,.warpbox {
+margin-left:0;
+float: left;
+min-height: 1px;
+overflow:hidden;
+}
+
+.threecol{
+margin:0 -1px 0 0;
+width:25.06%;
+padding: 30px 3.3%;
+position:relative;
+height:100%;
+min-height:500px;
+}
+
+.fourcol{ width:30%; margin:0 0 0 3.333%;}
+
+.eightcol{width:66.666%}
+
+.sixcol{width:50%}
+
+.first {margin-left: 0px !important;}
+
+#core{ margin-top:35px;}
+
+#core.Left #content{ float:right !important;}
+#core.Left #sidebar{  margin:0 3.333% 0 0;}
+
+#core.None #content{ width:100%;}
+
+
+/* @responsive mode
+********************************************************************************************
+********************************************************************************************/
+
+@media screen and (max-width: 1450px) {
+
+.container {max-width: 1130px;}
+
+.isotope {max-width: 1140px;}
+
+.post-previous,
+.post-next{width:90px;padding:0 5px; bottom:-110px;}
+
+.isotope .Vertical img,
+.isotope .Big img{margin:0 0 1px 0 !important;}
+
+.Vertical .item_inn,
+.Vertical:hover .item_inn,
+.Big .item_inn,
+.Big:hover .item_inn{ bottom:6px;}
+
+ul.medpost li iframe {max-height: 294px;}
+
+#header h1 img {max-width: 290px;}
+
+.headad{margin: 35px 0 15px;}
+
+}
+
+
+/* iPad Landscape */
+@media screen and (max-width: 1030px) {
+	
+.container {
+width:95%;
+margin: 0 2.5%;
+padding:0 0;
+}
+
+#navigation .container {
+width:100%;
+margin: 0 0;
+padding:0 0;
+overflow:visible;
+}
+
+#main-nav{ margin:0 0;}
+
+#main-nav>li>a {padding:30px 10px; text-align:center;}
+
+#main-nav > li > a i {
+    font-size: inherit !important;
+    left: auto;
+    position: relative;
+    top: auto;
+}
+
+.flexcarousel:hover .flex-prev {left:0px; }
+.flexcarousel:hover .flex-next {right:0px; }
+
+ul.medpost li iframe {max-height: 256px;}
+  
+.isotope .Horizontal img{margin:-1px 0 0 0 !important;}
+
+.headad{max-width:640px;}
+  
+}
+
+@media screen and (max-width: 990px) {
+
+#main-nav>li {width: 14.1%;}
+
+#main-nav > li > a i { display:none;}
+
+.nav .sf-sub-indicator{ right:6px;}
+
+#main-nav li a{ font-size:11px !important; padding:25px 3px;}
+
+#main-nav li ul li>a {margin: 0 8px; max-width:150px !important;}
+
+#header h1{margin:20px 0;}
+
+.headad{max-width:100%; float:left;margin: 15px 0;}
+
+}
+
+
+/*iPad Portrait */
+
+@media screen and (max-width: 770px){
+
+
+.resmode-No{ display:none; visibility:hidden;}
+
+.comment-form-author,
+.comment-form-email,
+.comment-form-url{ width:29.3%;}
+
+.tab-post{ height: auto; font-size:10px !important;}
+
+.item p.teaser{ display:none}
+
+ul.medpost li iframe {max-height: 190px;}
+
+.quote i{ display:none;}
+
+.tab-post img {max-width: 60px;}
+
+.tp_recent_tweets,
+.tp_recent_tweets li{ background:none !important; padding:0 0 20px 0 !important; width:100%;}
+
+.isotope .Vertical img{margin:2px 0 2px 0 !important;}
+
+.Vertical .item_inn,
+.Vertical:hover .item_inn{ bottom:7px;}
+
+}
+
+
+
+/* Mobile */
+
+@media handheld, only screen and (max-width: 740px) {
+
+body {
+width: 100%;
+min-width: 0;
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 0;
+padding-right: 0;
+margin-top:0;
+font-size: 16px;
+-webkit-text-size-adjust: none;
+}
+
+.container_alt{ overflow:hidden}
+
+#header,
+.onecol, .twocol, .threecol,.threecol_spec, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol,.fifthcol
+ {
+width: auto;
+float: none !important;
+padding-left: 20px;
+padding-right: 20px;
+margin-left: 0;
+margin-right: 0;
+}
+
+#sidebar{margin-left:0 !important; width:100%; max-width:none !important;}
+
+.fourcol{
+padding: 0 !important;
+max-width: 290px;
+float:none;
+margin:0 auto 30px auto;
+}
+
+.sixcol{
+padding: 0 !important;
+float:none;
+margin:0 auto 30px auto;
+}
+
+#content,#sidebar{
+	padding-left:0;
+	padding-right:0;
+	margin-top:0;
+}
+
+#sidebar{margin-top:40px;}
+
+#copyright{ padding:0 5%;}
+
+.pagination{ margin-bottom:40px; height:35px;}
+
+#header h1{ float:none; margin:30px auto; text-align:center;}
+
+#header h1 img {float:none; margin:0 auto; text-align:center; max-width:100%;}
+
+
+/* mobile menu */
+a#navtrigger,
+a#navtrigger-sec{ display:block;}
+
+#navigation,
+#topnav{ display:none; text-align:center;}
+
+ul.nav{ width:100% !important;}
+
+ul.nav li,
+.nav li ul{ width:100% !important; float:none; display:block;margin:0 0 0 0 !important;  }
+
+ul.nav li a{ width:100% !important; text-align:center;}
+
+.nav > li > ul > li,
+.nav li ul ul li,
+#main-nav li ul li > a,
+.nav li ul li > a {max-width: 100% !important;margin:0 0 0 0;}
+
+#main-nav li.mega ul.sub-menu { min-height:0px;}
+
+.nav li ul ul{ margin:0 0 0 0;}
+
+.mega2 .sf-sub-indicator{ display:none;}
+
+div.sub{ display:none !important;}
+
+#topnav ul.social-menu {
+    display: inline-block;
+    float: none;
+    margin: 0 auto 0 auto !important;
+	text-align:center;
+}
+
+#topnav ul.social-menu li{ display:inline-block; }
+
+.searchformhead{ float:none; margin:0 auto 20px auto;}
+
+/* end mobile menu */
+
+.flexwrap,
+.flexcarousel{ display:none;}
+
+ul.featured{ float:none;}
+
+.isotope .item{ width:50% !important;}
+
+.isotope .item.Horizontal{ width:100% !important;}
+
+.isotope img,.isotope .Big img{
+    margin: 0 0 0 0 !important;
+}
+
+#core.Left #content {
+    float: none !important;
+}
+
+}
+
+
+@media only screen and (max-width: 639px) {
+.scrollTo_top{ visibility:hidden; display:none}
+
+.tmnf-sc-quote.left,
+.tmnf-sc-quote.right{ width:100%; float:none; margin-left:0; margin-right:0}
+
+
+.contact-form .forms textarea,
+.contact-form .forms input.txt{ width:100%; float:none; margin-left:0; margin-right:0; padding-left:0; padding-right:0}
+
+.contact-form .forms label{ margin-bottom:10px}
+
+.contact-form .forms .buttons .submit,
+.contact-form .forms input#sendCopy{ margin-left:0;}
+
+a.hoverstuff-zoom{ display:none; visibility:hidden}
+
+.twocol-one,.threecol-one,.threecol-two,.fourcol-one,.fourcol-two,.fourcol-three,.fivecol-one,.fivecol-two,.fivecol-three,.fivecol-four,.sixcol-one,.sixcol-two,.sixcol-three,.sixcol-four,.sixcol-five{ width:100% !important;}
+
+.slider_full img{
+  min-width: 700px;
+  margin-left: -350px;
+  position:absolute;
+ }
+
+.comment-form-author,
+.comment-form-email,
+.comment-form-url{ width:28.6%;}
+
+#respond textarea{ width:94%;}
+
+img.alignleft,
+.attachment-folio_slider,
+.main-single,
+img.alignright,
+img.aligncenter,
+.wp-caption,
+.wp-caption img{ max-width:100%; margin:5px 0 30px 0;}
+
+} 
+
+@media only screen and (max-width: 570px) {
+
+.isotope,
+ul.medpost{ max-width:310px; margin:5px auto;}
+
+.isotope .item,
+ul.medpost li{ width:100% !important; margin:0 0 0 0;}
+
+.post-previous,
+.post-next{ display:none;}
+
+.Horizontal  .item_inn h2{ margin:0 0 !important; font-size:11px !important;}
+	
+	
+}
+
+@media only screen and (max-width: 429px) {
+
+iframe{max-height:280px}
+
+h1.entry-title,
+h2.itemtitle { font-size:30px !important; margin-top:20px;}
+
+h2.itemtitle { text-align:center;}
+
+.related li { width:45%; height:220px;}
+
+.comment-form-author,
+.comment-form-email,
+.comment-form-url{ width:100%;}
+
+#respond textarea{ width:99.5%;}
+
+}
