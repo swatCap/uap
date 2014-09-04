@@ -6,22 +6,24 @@
 
 package com.ukrautoportal.autouaparser.data;
 
+import java.io.Serializable;
+
 /**
  *
  * @author swat
  */
-public class Phone {
-    private String phone;
+public class Phone implements Serializable {
+    private String phoneNumber;
     private String description;
 
     public Phone() {}
 
-    public String getPhone() {
-        return phone;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
     public String getDescription() {

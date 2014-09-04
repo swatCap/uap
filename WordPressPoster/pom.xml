@@ -28,6 +28,12 @@
               <artifactId>xmlrpc</artifactId>
               <version>1.1.1</version>
         </dependency>
+        
+        <dependency>
+            <groupId>com.ukrautoportal</groupId>
+            <artifactId>auto-parser-mvn</artifactId>
+            <version>0.1</version>
+        </dependency>
 
 <!--        
         <dependency>

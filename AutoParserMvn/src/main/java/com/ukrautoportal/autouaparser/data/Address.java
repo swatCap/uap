@@ -6,13 +6,14 @@
 
 package com.ukrautoportal.autouaparser.data;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  *
  * @author swat
  */
-public class Address 
+public class Address implements Serializable
 {
     private String          cityName;
     private String          district;

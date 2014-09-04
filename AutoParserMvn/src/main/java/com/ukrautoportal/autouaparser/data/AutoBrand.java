@@ -312,4 +312,5 @@ public class AutoBrand {
         MAP.put(ID_GAZ, GAZ); 
         MAP.put(ID_ZAZ, ZAZ);        
     }
+            
 }

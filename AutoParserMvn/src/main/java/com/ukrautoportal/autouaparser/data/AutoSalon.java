@@ -26,7 +26,8 @@ public class AutoSalon extends AbstractPoint
     protected String          sitePresentation;
     
     protected List<String>    workHours;
-
+    
+    protected Integer         photoCount;
     
     public AutoSalon() {}  
 
@@ -93,5 +94,13 @@ public class AutoSalon extends AbstractPoint
     public void setWorkHours(List<String> workHours) {
         this.workHours = workHours;
     }                             
+
+    public Integer getPhotoCount() {
+        return photoCount;
+    }
+
+    public void setPhotoCount(Integer photoCount) {
+        this.photoCount = photoCount;
+    }
         
 }

@@ -6,12 +6,15 @@
 
 package com.ukrautoportal.autouaparser.data;
 
+import java.io.Serializable;
+
 /**
  *
  * @author swat
  */
-public class AbstractPoint 
+public class AbstractPoint implements Serializable
 {
+    protected String          nameEn;
     protected String          name;    
     protected Address         address;
 
@@ -32,6 +35,14 @@ public class AbstractPoint
 
     public void setAddress(Address address) {
         this.address = address;
+    }
+
+    public String getNameEn() {
+        return nameEn;
+    }
+
+    public void setNameEn(String nameEn) {
+        this.nameEn = nameEn;
     }
 
     

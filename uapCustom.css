@@ -1,0 +1,185 @@
+.autoprobeg{
+  height: 73px;
+}
+.threecol{
+  	padding: 0;
+}
+
+#social .social-identity .avatar {
+position: absolute;
+top: 2px;
+left: 20px;
+}
+
+.logged-in #social #respond .form-submit, .logged-in #social .social-input-row {
+float: none;
+padding-left: 80px;
+}
+
+#social #reply-title, #social .social-nav .social-current-tab {
+background: none;
+}
+
+#social #reply-title {
+margin: 0;
+overflow: hidden;
+padding-left: 20px;
+padding-top: 10px;
+zoom: 1;
+}
+
+#social #respond textarea.social-input {
+height: 83px;
+max-width: none;
+width: 95%;
+}
+
+#footer .tab-post img {
+width: auto;
+}
+
+#footer .threecol h2, .item_inn p.meta, .item_inn span.meta {
+color: #FFBE35;
+}
+
+.item_inn h2, #footer .threecol h2, .nav-previous a, .quote p, .carousel_inn h2 {
+font: 600 16px/1.2em Raleway;
+color: #000000;
+}
+
+media="all"
+.Big .item_inn h2, .Vertical .item_inn h2, .Horizontal .item_inn h2, #footer .threecol h2, .nav-previous a {
+font-size: 20px !important;
+}
+
+
+.teaser{
+  display: none;
+}
+
+h2 > .meta{
+  	display: none;
+}
+
+.l-middle-left {
+float: left;
+width: 350px;
+clear: left;
+margin-bottom: 20px;
+}
+
+.l-middle-right {
+float: right;
+width: 350px;
+margin-bottom: 20px;
+clear: right;
+}
+
+.b-shortaddress {
+padding: 0 10px 30px;
+font-size: 14px;
+}
+
+.point p {
+margin: 0.4em 0;
+/* font-size: 1em; */
+line-height: 1.19em;
+}
+.e-shortaddress-item {
+font-size: 14px;
+overflow: hidden;
+  margin-bottom: 10px;
+}
+.e-shortaddress-label {
+width: 78px;
+float: left;
+color: #8e8e8e;
+}
+
+.e-phone-block {
+display: block;
+overflow: hidden;
+white-space: nowrap;
+line-height: 18px;
+}
+
+.e-phonecomment {
+color: #828282;
+margin-bottom: 5px;
+}
+
+
+.e-schedule-table__full{
+  padding-left: 80px;
+}
+
+.item .item_inn {
+position: absolute;
+bottom: 5px;
+left: 15px;
+width: 70%;
+z-index: 4;
+padding: 10px 15px 0 15px;
+min-height: 40px;
+overflow: hidden;
+}
+
+#social #reply-title {
+margin: 0;
+overflow: hidden;
+padding-left: 20px;
+padding-top: 10px;
+zoom: 1;
+display: none;
+}
+
+#js-point-address{
+padding-left: 78px;  
+}
+
+img.standard {
+float: left;
+margin: 0 0 1px 0;
+width: 100%;
+}
+
+img.wp-image-1372{
+  width: 100%;
+
+}
+
+.flexcarousel li h2 {
+margin: 10px 0 10px 125px;
+font-size: 13px !important;
+}
+
+.hrlineB {
+margin-bottom: 10px !important;
+}
+
+#core {
+margin-top: 25px;
+}
+
+#auto-services{
+  	color: black;
+  font-weight: 900; 
+  font-size: 16px; 
+  background-color: #FFCC00;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#auto-services-container{
+  margin: 10px;
+}
+
+.auto-serviceImg{
+  	position: absolute;
+	border-radius: 100px;
+}
+
+.auto-serviceName{
+  	margin-left: 50px;
+	padding: 5px;
+}
